@@ -1,0 +1,11 @@
+fn main() {
+    let tup = ("Jaswanth",30,true);
+    println!("{:?}",tup);
+    
+    println!("fisrt value of tuple is {:?}",tup.0);
+}
+
+o/p:
+
+("Jaswanth", 30, true)
+fisrt value of tuple is "Jaswanth"
