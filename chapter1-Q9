@@ -1,0 +1,23 @@
+
+fn main() {
+    const I_CONST: i32 = 42;
+    const F_CONST: f64 = 3.14159;
+    const B_CONST: bool = true;
+    const C_CONST: char = 'R';
+    const S_CONST: &str = "Rust Language";
+    
+    
+    println!("Integer Constant: {}", I_CONST);
+    println!("Float Constant: {}", F_CONST);
+    println!("Boolean Constant: {}", B_CONST);
+    println!("Character Constant: {}", C_CONST);
+    println!("String Constant: {}", S_CONST);
+}
+
+
+o/p:
+Integer Constant: 42
+Float Constant: 3.14159
+Boolean Constant: true
+Character Constant: R
+String Constant: Rust Language
