@@ -1,0 +1,20 @@
+fn main() {
+    //implicit type declaration
+    println!("implicit type declaration");
+    let a = 10;
+    println!("a is {}",a);
+    
+    //Explicit type declaration
+    
+    println!("Explicit type declaration");
+    let a:i8 = 20;
+    println!("a is {} ",a)
+}
+
+
+o/p:
+
+implicit type declaration
+a is 10
+Explicit type declaration
+a is 20 
