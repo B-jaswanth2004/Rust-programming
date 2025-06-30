@@ -1,0 +1,9 @@
+fn main() {
+    let x = 10;
+    if x > 0{
+        println!("x is positive number");
+    }
+    else{
+        println!("x is negative number");
+    }
+}
