@@ -1,0 +1,17 @@
+fn main() {
+    //Borrowing
+    let x = 10;
+    let y = &x;//Borrowing operator - "&"
+    println!("Borrowing y from x -  {}",y);
+    
+    
+    //Dereferencing
+    let mut a = 20;
+    let b = &mut a;
+    *b+=5;//dereferencing operator "*"
+    println!("dereferencing b from a - {}",b);
+}
+
+o/p:
+Borrowing y from x -  10
+dereferencing b from a - 25
