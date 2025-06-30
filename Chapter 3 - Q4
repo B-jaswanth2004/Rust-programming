@@ -1,0 +1,5 @@
+fn main(){
+    let x = 10;
+    let res= if x == 10 {"value is 10"} else {"value is something..."};
+    println!("{}",res);
+}
