@@ -1,0 +1,17 @@
+sum of a odd numbers before the number
+
+fn main() {
+    
+    let mut val  = 0;
+    
+    for i in 0..5{
+        if i % 2 != 0{
+            val += i;
+        }
+}
+   
+  println!("{}",val);
+}
+
+o/p:
+9
