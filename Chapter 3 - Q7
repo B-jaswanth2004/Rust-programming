@@ -1,0 +1,17 @@
+fn main(){
+    let mut i = 0;
+    while i <= 5{
+        i = i + 1;
+        println!(" Iteration count is {}",i);
+    }
+}
+
+
+o/p:
+
+ Iteration count is 1
+ Iteration count is 2
+ Iteration count is 3
+ Iteration count is 4
+ Iteration count is 5
+ Iteration count is 6
