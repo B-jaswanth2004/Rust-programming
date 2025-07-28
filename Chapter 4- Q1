@@ -10,3 +10,7 @@ fn fact(n:i32){
     }
     println!("factorial of {} is {} ",n,f);
 }
+
+
+o/p:
+factorial of 5 is 120 
