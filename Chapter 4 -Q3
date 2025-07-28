@@ -1,0 +1,19 @@
+fn main(){
+    let val = 4;
+    pbv(val);
+    pbrf(&val);
+}
+
+fn pbv(n:i32){
+    let m = n*n;
+    println!("pass by value is {} ",m)
+}
+
+fn pbrf(n : &i32){
+    let m = *n * *n;
+    println!("pass by reference value is {} ",m);
+}
+
+o/p:
+pass by value is 16 
+pass by reference value is 16 
