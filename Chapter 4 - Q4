@@ -1,0 +1,13 @@
+fn main(){
+    let x = 10;
+    let y = 10;
+    let res = calculate_area_perimeter(x,y);
+    println!("perimeter of length {} and breadth {} is {} ",x,y,res)
+}
+fn  calculate_area_perimeter(l:i32, b:i32) -> i32{
+    let res = l * b;
+    res
+}
+
+o/p:
+perimeter of length 10 and breadth 10 is 100 
