@@ -1,0 +1,12 @@
+fn main() {
+
+    let text1 = "Hello World".to_string();
+    let smple = "Sample String".to_string();
+    println!("{}",text1);
+    println!("{}",smple)
+}
+
+
+o/p:
+Hello World
+Sample String
