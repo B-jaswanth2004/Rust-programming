@@ -1,0 +1,50 @@
+A.
+fn main() {
+
+    let smple = "Sample String".to_string();
+    println!("Capacity of the sample string is {}",smple.capacity());
+    
+}
+
+o/p:
+Capacity of the sample string is 13
+
+
+B.
+fn main() {
+
+    let smple = "Sample String";
+    println!("{} is rust in the smple ",smple.contains("rust"));
+}
+
+o/p:
+false
+
+C.
+fn main() {
+    let s = "I love apples. Apples are great.";
+    let replaced = s.replace("apples", "oranges"); 
+    println!("{}", replaced);
+    
+    let sample = "vit";
+    let replacc = sample.replace("vit","VISHNU INSTITUTE OF TECHNOLOGY");
+    println!("{}",replacc);
+}
+
+
+o/p:
+
+I love oranges. Apples are great.
+VISHNU INSTITUTE OF TECHNOLOGY
+
+D.
+
+fn main() {
+ 
+    let sample = "  vit   ";
+    println!("{}",sample.trim());
+}
+
+
+o/p:
+vit
