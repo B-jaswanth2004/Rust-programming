@@ -1,0 +1,20 @@
+fn main() {
+    let input = "Rust is fast and memory-efficient";
+
+    println!("Original string: {}", input);
+    println!("Tokens:");
+
+    for token in input.split_whitespace() {
+        println!("{}", token);
+    }
+}
+
+o/p:
+
+Original string: Rust is fast and memory-efficient
+Tokens:
+Rust
+is
+fast
+and
+memory-efficient
