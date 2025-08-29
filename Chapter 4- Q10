@@ -1,0 +1,11 @@
+fn main() {
+    let mut base = String::from("Hello");
+    let to_push = " World";
+
+    base.push_str(to_push); // push the string into base
+
+    println!("Resulting string: {}", base);
+}
+
+o/p:
+Resulting string: Hello World
